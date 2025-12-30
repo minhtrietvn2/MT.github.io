@@ -1,4 +1,43 @@
-baseURL = 'https://MT.github.io/'
+baseURL = 'https://mt.github.io/'
 languageCode = 'vi'
-title = 'Blog của tôi'
+title = 'Những điều kỳ diệu từ Hoshino Ichika'
 theme = 'PaperMod'
+
+[params]
+  description = "Blog cá nhân chia sẻ về lập trình và công nghệ"
+  author = "Tên của bạn"
+  
+  # Hiển thị nút "Home" trên header
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  
+  # Profile mode cho trang chủ
+  [params.profileMode]
+    enabled = true
+    title = "Chào mừng đến với blog của tôi"
+    subtitle = "Nơi tôi chia sẻ kiến thức về lập trình và công nghệ"
+    imageUrl = "" # Thêm link ảnh đại diện nếu có
+    imageTitle = ""
+
+# Menu điều hướng
+[[menu.main]]
+  name = "Trang chủ"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Bài viết"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "Tìm kiếm"
+  url = "/search/"
+  weight = 4
