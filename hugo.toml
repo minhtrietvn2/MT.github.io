@@ -1,0 +1,4 @@
+baseURL = 'https://MT.github.io/'
+languageCode = 'vi'
+title = 'Blog của tôi'
+theme = 'PaperMod'
